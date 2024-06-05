@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Website </title>
+    <link rel="stylesheet" href="joy.css">
+</head>
+<body>
+    <nav>
+        <img src="logo.jpg" width="110" alt="">
+    
+    <div class ="nav-country">
+        <img src="./assets/location_icon.png" height="20" alt="">
+        <div>
+            <p>Deliver to </p>
+            <h1> All over the world</h1>
+        </div>
+    </div>
+      <div class ="nav-search">
+        <div class ="nav-search-gategory">
+            <p>All</p>
+            <img src="./assets/dropdown_icon.png"  height="12">
+
+        </div>
+        <input type="text" class="nav-search-input">
+        <img src="./assets/search_icon.png" class="nav-search-icon" alt="">
+      </div>
+
+    <div class = "nav-text">
+        <p>
+         <span id="loginButton" onclick="document.getElementById('loginBox').style.display='block'">Hello,Signin &login</span> </p>
+        <div id="loginBox" class="loginBox">
+          <span class="close" onclick="document.getElementById('loginBox').style.display='none'">&times;</span>
+          <form onsubmit="return validateForm()">
+            <label for="username"><input type="text" id="username" name="username" placeholder="Username"></label>
+            <br><br>
+            <label for="password"><input type="password" id="password" name="password"placeholder="Password" ></label>
+        <br><br>
+            <input type="submit" value="Login">
+          </form>
+        </div>
+
+        <h1>Account & Lists <img src ="./assets/dropdown_icon.png" width="8px"> </h1>
+    </div>
+    <div class ="nav-text">
+        <p>Return</p>
+        <h1>& Orders</h1>
+    </div>
+    <a href="" class="nav-cart">
+        <img src = "assets/cart_icon.png" width="20px">
+        <h4>Cart</h4>
+    </a>
+      
+    </nav>
+    <div class="nav-bottom"><div>
+        <img src="./assets/menu_icon.png" width="25px">
+        <p>All</p>
+    </div>
+    <p>Today's deal</p>
+    <p> Offer</p>
+    <p>Customer Service</p>
+    <p>Sale</p>
+    </div>
+    <div class ="header-slider">
+      <div class="img-container">
+        <ul>
+            <div class="img-sorce">
+            <img src ="./assets/header1.jpg" class="header-img"></div>
+            <div class="img-sorce">
+            <img src ="./assets/header2.jpg" class="header-img"></div>
+            <div class="img-sorce">
+            <img src ="./assets/header3.jpg" class="header-img"></div>
+            <div class="img-sorce">
+            <img src ="./assets/header4.jpg" class="header-img"></div>
+            <div class="img-sorce">
+            <img src ="./assets/header5.jpg" class="header-img"></div>
+            <div class="img-sorce">
+            <img src ="./assets/header6.jpg" class="header-img"></div>
+        </ul>
+     </div>
+    </div>
+    <div class = "box-row header-box">
+        <div class="box-col">
+            <h3>Free international returns</h3>
+            <img src="./assets/box1-1.jpg" onclick="redirectTo('https://www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1')">
+
+    <script>
+        function redirectTo(url) {
+            window.location.href =url;
+        }
+    </script>
+
+            <a href="https://www.amazon.in/s?k=gaming+pc&crid=1F290251R4L7E&sprefix=gaming+%2Caps%2C253&ref=nb_sb_ss_ts-doa-p_4_7">Shop More</a>
+            
+        </div>
+        <div class="box-col">
+            <h3>Stationery</h3>
+            
+            <img src="./assets/box3-1.jpg" onclick="redirectTo('https:/www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1')">
+
+    <script>
+        function redirectTo(url) {
+            window.location.href =url;
+        }
+    </script>
+            <a href="https://www.amazon.in/b/ref=ohlr_bstof_deals/?_encoding=UTF8&node=27960101031&pd_rd_w=Bjztb&content-id=amzn1.sym.2f5d0647-49b2-4cd6-8e4a-911baea88382&pf_rd_p=2f5d0647-49b2-4cd6-8e4a-911baea88382&pf_rd_r=MGVQNZ6FMT2MRR7N5R1T&pd_rd_wg=8iZAZ&pd_rd_r=85e7aacc-2bf8-40ef-8f5c-40cdfd819f9d">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3> Toy under $25</h3>
+            
+            <img src="./assets/box1-3.jpg" onclick="redirectTo('https:/www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1')">
+
+    <script>
+        function redirectTo(url) {
+            window.location.href =url;
+        }
+    </script>
+            <a href="https://www.amazon.in/b/ref=ohlr_bstof_deals/?_encoding=UTF8&node=27960101031&pd_rd_w=Bjztb&content-id=amzn1.sym.2f5d0647-49b2-4cd6-8e4a-911baea88382&pf_rd_p=2f5d0647-49b2-4cd6-8e4a-911baea88382&pf_rd_r=MGVQNZ6FMT2MRR7N5R1T&pd_rd_wg=8iZAZ&pd_rd_r=85e7aacc-2bf8-40ef-8f5c-40cdfd819f9d">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Deals in PCs</h3>
+            
+            <img src="./assets/box1-4.jpg" onclick="redirectTo('https://www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1')">
+
+    <script>
+        function redirectTo(url) {
+            window.location.href =url;
+        }
+    </script>
+            <a href="https://www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1">Shop More</a>
+        </div>
+    </div>
+    <div class = "box-row ">
+        <div class="box-col">
+            <h3>Gromming product</h3>
+            
+            <img src="./assets/box2-1.jpg" onclick="redirectTo('https://www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1')">
+
+    <script>
+        function redirectTo(url) {
+            window.location.href =url;
+        }
+    </script>
+
+            <a href="https://www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Lunar year day</h3>
+            
+            <img src="./assets/box1-2.jpg" onclick="redirectTo('https://www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1')">
+
+            <script>
+                function redirectTo(url) {
+                    window.location.href =url;
+                }</script>
+            <a href="https://www.amazon.in/s?k=latest+technology+gadgets&crid=LH5POHJ4JKU5&sprefix=latest+devices%2Caps%2C241&ref=nb_sb_ss_ts-doa-p_1_14">Shop More</a>
+        
+        </div>
+        <div class="box-col">
+            <h3> Pet Food</h3>
+            
+            <img src="./assets/box2-3.jpg" onclick="redirectTo('https://www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1')">
+
+            <script>
+                function redirectTo(url) {
+                    window.location.href =url;
+                }</script>
+            <a href="https://www.amazon.in/s?k=pet+food&crid=SMTFL06AFGXV&sprefix=pet+foo%2Caps%2C243&ref=nb_sb_ss_ts-doa-p_1_7">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Fashion Mart</h3>
+            
+            <img src="./assets/box2-4.jpg" onclick="redirectTo('https://www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1')">
+
+            <script>
+                function redirectTo(url) {
+                    window.location.href =url;
+                }</script>
+            <a href="amazon.in/s?k=fashion+mart&crid=3F47CKH1TYRKZ&sprefix=fashion+mart%2Caps%2C231&ref=nb_sb_ss_ts-doa-p_2_12">Shop More</a>
+        </div>
+    </div>
+    <div class = "box-row ">
+        <div class="box-col">
+            <h3>Latest devices</h3>
+            
+            <img src="./assets/box2-2.jpg" onclick="redirectTo('https://www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1')">
+
+            <script>
+                function redirectTo(url) {
+                    window.location.href =url;
+                }</script>
+            <a href="https://www.amazon.in/s?k=stationary+for+girls&crid=3HOS1STAIO0B6&sprefix=stationary%2Caps%2C249&ref=nb_sb_ss_ts-doa-p_5_10">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Laptop for Study</h3>
+            
+            <img src="./assets/box3-2.jpg" onclick="redirectTo('https://www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1')">
+
+            <script>
+                function redirectTo(url) {
+                    window.location.href =url;
+                }</script>
+            <a href="https://www.amazon.in/s?k=gaming+pc&crid=1F290251R4L7E&sprefix=gaming+%2Caps%2C253&ref=nb_sb_ss_ts-doa-p_4_7">Shop More</a>
+            
+        </div>
+        <div class="box-col">
+            <h3> Office chairs</h3>
+            
+            <img src="./assets/box3-3.jpg" onclick="redirectTo('https://www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1')">
+
+    <script>
+        function redirectTo(url) {
+            window.location.href =url;
+        }</script>
+            <a href="https://www.amazon.in/s?k=stationary+for+girls&crid=3HOS1STAIO0B6&sprefix=stationary%2Caps%2C249&ref=nb_sb_ss_ts-doa-p_5_10">Shop More</a>
+        </div>
+        <div class="box-col">
+            <h3>Gaming monitor</h3>
+            
+            <img src="./assets/box3-4.jpg" onclick="redirectTo('https://www.amazon.in/s?k=pc&crid=12W4K8TLETMWG&sprefix=pc%2Caps%2C230&ref=nb_sb_noss_1')">
+
+    <script>
+        function redirectTo(url) {
+            window.location.href =url;
+        }
+    </script>
+            <a href="https://www.amazon.in/s?k=gaming+pc&crid=1F290251R4L7E&sprefix=gaming+%2Caps%2C253&ref=nb_sb_ss_ts-doa-p_4_7">Shop More</a>
+        </div>
+    </div>
+  <hr>
+  <script>
+    function validateForm() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      if (username === "" || password === "") {
+        alert("Please fill in all fields");
+        return false;
+      }
+      return true;
+    }
+    </script>
+  <center>
+    <h2 style="color: yellowgreen; background-color: black;">CONTACT US</h2>
+    <h3 style="color: yellowgreen;background-color: black;">@COPYRIGTHS 2024</h3>
+  </center>
+</body>
+</html>
